@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+header h2 {
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #4c4e61;
+}
+header strong {
+  font-size: 1.2rem;
+  color: #4c4e61;
+}
+header div {
+  max-width: 500px;
+  text-align: center;
+  font-size: 15px;
+  color: #a3a5ae;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.container__flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 22px 26px;
+  border-radius: 6px;
+}
+.card b {
+  font-size: 22px;
+  color: #4c4e61;
+}
+.card .content {
+  max-width: 300px;
+  padding: 16px 0;
+  font-size: 15px;
+  color: #a3a5ae;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.green {
+  border-top: 6px solid #45d3d3;
+}
+
+.red {
+  border-top: 6px solid #ea5353;
+}
+
+.orange {
+  border-top: 6px solid #fcaf4a;
+}
+
+.blue {
+  border-top: 6px solid #549ef2;
+}

@@ -1,0 +1,95 @@
+@import './import.scss';
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px;
+
+  h2 {
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: $darkBlue;
+  }
+  strong {
+    font-size: 1.2rem;
+    color: $darkBlue;
+  }
+
+  div {
+    max-width: 500px;
+    text-align: center;
+
+    font-size: 15px;
+
+    color: $grayishBlue;
+  }
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 25px;
+}
+
+.container__flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 350px;
+
+  background: #fff;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+  padding: 22px 26px;
+
+  border-radius: 6px;
+
+  b {
+    font-size: 22px;
+
+    color: $darkBlue;
+  }
+
+  .content {
+    max-width: 300px;
+    padding: 16px 0;
+
+    font-size: 15px;
+
+    color: $grayishBlue;
+  }
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 10px;
+}
+.green {
+  border-top: 6px solid $cyan;
+}
+
+.red {
+  border-top: 6px solid $red;
+}
+
+.orange {
+  border-top: 6px solid $orange;
+}
+
+.blue {
+  border-top: 6px solid $blue;
+}
